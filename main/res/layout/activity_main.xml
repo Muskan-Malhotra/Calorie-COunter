@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wor"
+    tools:context=".MainActivity">
+
+
+    <!--        //android:background="@drawable/workout"/> working fine-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="118dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="191dp"
+        android:background="#5B673AB7"
+        android:text="Calories Consumed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#EEF3EE"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <EditText
+        android:id="@+id/CB"
+        android:layout_width="114dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:background="#00673AB7"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="120dp"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:background="#63673AB7"
+        android:text="Calories Burned"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F1E9E9"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <EditText
+        android:id="@+id/CC"
+        android:layout_width="114dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="266dp"
+        android:background="#0003A9F4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="439dp"
+        android:background="#6D673AB7"
+        android:text="Edit"
+        android:textColor="#EEEDF1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="103dp"
+        android:background="#6F03A9F4"
+        android:text="COUNT YOUR CALORIES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFCFC" />
+
+</RelativeLayout>
